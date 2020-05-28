@@ -18,7 +18,7 @@ class StudentsController < ApplicationController
     end 
     @student.active
     @student.save
-  # redirect to '/students/show'
+  redirect to '/students/show'
   end 
 
   private
